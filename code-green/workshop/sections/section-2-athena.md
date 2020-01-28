@@ -10,7 +10,7 @@ In this section you will create an [Amazon Athena](https://aws.amazon.com/athena
 
 Athena lets you use the same standard SQL usually used with relational databases to query files stored in S3. You first define a schema for the data held in S3. Since Athena defines the schema _after_ the data has been stored this technique is often called "schema on read," as opposed to relational databases, where a schema is defined in advance of data being put into it ("schema on write"). In this section we’ll specify an S3 data source, define the schema to be applied to the data source, then use SQL to query S3, using the schema we just created.
 
-The SQL statements we’ll be using can be found in the workshop GitHub repo in the [sql-statements.sql](https://github.com/awslabs/amazon-asdi/blob/master/code-green/workshop/code/sql-statements.sql) file. In that file you will see queries dived by section number (2 in this case) followed by a decimal number. The decimal number represents the specific step in the instructions where you’ll use that statement. Let’s get started!
+The SQL statements we’ll be using can be found in the workshop GitHub repo in the [sql-statements.sql](https://github.com/awslabs/amazon-asdi/blob/master/code-green/workshop/code/sql-statements.sql) file. In that file you will see queries divided by section number (2 in this case) followed by a decimal number. The decimal number represents the specific step in the instructions where you’ll use that statement. Let’s get started!
 
 1. If you’re not already, log on to the AWS console and set your region to N. Virginia.
 
